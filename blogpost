@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first webpage</title>
+</head>
+<body>
+     <h1>A Blog Post about my Sunday</h1>
+     <hr>
+     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <p>It was a very beautiful morning.I was riding my Bike along the seashore.As it was Sunday,most of the people came to the shore for enjoying their weekend.The children were building sand castles and some cried,some laughed when waves washed their sand castles.     	
+     </p>
+     <p>
+     	Youngsters went to surfing for showing their bravery to their girlfriends.Small fishes came along the seashore.Sea birds were trying to catch the lobsters.It was an amazing day for me.
+     </p>
+     <img src="seashore.jpg" style="width: 50%">
+</body>
+</html>
+<!--style.css-->
+h1{
+	 font-family:Metal mania;
+	 background-color: black;
+	 color:white;
+	 text-align:center; 
+	 font-size:50px;
+ padding-left: 10%;
+ padding-right: 10%;
+ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+hr{
+	border-style: solid black ;
+    border-width: 10px;
+}
+p{
+	font-size: 150%;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+}
